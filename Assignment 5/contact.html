@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- bootstrap5 cdn -->
+  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/style.css">
+
+</head>
+
+<body>
+
+  <!-- navbar -->
+
+  <nav class="navbar navbar-expand-lg p-2 mb-1 bg-primary-subtle text-primary-emphasis">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="./index.html">
+        <img src="./images/nav.png" height="40vh">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav  gap-3">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./service.html">Service</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./contact.html">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- form -->
+
+  <form class="row g-3 p-5">
+    <div class="col-md-4">
+      <input type="text" placeholder="First name" class="form-control" required>
+    </div>
+
+    <div class="col-md-4">
+      <input type="text" placeholder="Last name" class="form-control" required>
+    </div>
+
+    <div class="col-md-4">
+      <input type="mail" placeholder="Email" class="form-control" required>
+    </div>
+
+    <div class="col-md-6">
+      <input type="text" placeholder="City" class="form-control" required>
+    </div>
+
+    <div class="col-md-3">
+      <select class="form-select" required>
+        <option>choose state </option>
+        <option>Kerala</option>
+        <option>Tamilnadu</option>
+        <option>Goa</option>
+        <option>Karnataka</option>
+        <option>Gujrat</option>
+      </select>
+    </div>
+
+    <div class="col-md-3">
+      <input type="number" placeholder="Zip" class="form-control" required>
+    </div>
+
+    <div class="col-12">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+        Agree to terms and conditions
+        </label>
+      </div>
+    </div>
+
+    <div class="col-12">
+      <button class="btn btn-primary" type="submit">Submit form</button>
+    </div>
+  </form>
+
+  <!-- bootstrap5 -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+  <footer class="text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a href="https://www.facebook.com/">
+          <img src="./images/fb.png">
+        </a>
+
+        <!-- Twitter -->
+        <a href="https://x.com/?lang=en">
+          <img src="./images/twiter.png">
+        </a>
+
+        <!-- Instagram -->
+        <a href="https://www.instagram.com/accounts/login/?hl=en">
+          <img src="./images/insta.png">
+        </a>
+
+        <!-- Linkedin -->
+        <a href="https://in.linkedin.com/">
+          <img src="./images/linkedin.png">
+        </a>
+
+      </section>
+    </div>
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      <p>&copy;World Wildlife Fund</p>
+    </div>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,49 @@
+/* author Krishnaraj PK */
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    color: white;
+    background: rgb(37, 64, 96);
+    background: radial-gradient(circle, rgba(37, 64, 96, 1) 0%, rgba(12, 18, 21, 1) 100%);
+}
+
+
+h2 strong {
+    color: #bb80ff;
+}
+
+.active {
+    color: hwb(221 0% 0%) !important;
+}
+
+
+.card {
+
+    margin: 5px;
+    color: hsl(187, 67%, 63%);
+    background: #010a16;
+    background: linear-gradient(309deg, rgba(37, 64, 96, 1) 39%, rgba(54, 79, 109, 1) 45%, rgba(247, 252, 255, 0.7875525210084033) 100%);
+}
+
+#content img {
+    height: 80px;
+    width: 80px;
+}
+
+#sevice img {
+    height: 80px;
+    width: 80px;
+}
+
+.details {
+    list-style-type: none;
+}
